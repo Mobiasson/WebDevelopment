@@ -1,0 +1,3 @@
+[submodule "assignments/pokermon"]
+	path = assignments/pokermon
+	url = https://github.com/Mobiasson/Pokermon.git
