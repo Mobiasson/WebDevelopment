@@ -1,12 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const addBtn = document.getElementById("addBtn");
-    const list = document.getElementById("list");
-    let itemCount = list.children.length;
-
-    addBtn.addEventListener("click", () => {
-        itemCount++;
-        const li = document.createElement("li");
-        li.textContent = `Item ${itemCount}`;
-        list.appendChild(li);
-    });
-});
+function fetchBtn() {
+    document.querySelector("#fetchBtn");
+    const url = "fetch('https://jsonplaceholder.typicode.com/todos/1')";
+    fetch(url).then(response => response.json()).then
+    
+}

@@ -1,26 +1,6 @@
-#header {
-    width: auto;
-    justify-content: center;
-    display: flex;
-    background-color: wheat;
-}
-
-#addBtn {
-    margin: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-#list {
-    list-style: none;
-    padding: 0;
-    margin: 1rem;
-}
-
-#list li {
-    padding: 0.5rem 1rem;
-    margin: 0.25rem 0;
-    background-color: #e8e8e8;
-    border-radius: 4px;
+#fetchBtn {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
